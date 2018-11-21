@@ -1,0 +1,179 @@
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-color: cadetblue;
+}
+.container
+{
+    background-color: white;
+}
+.top-bar
+{
+    background-color: #ff9000;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+
+}
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('../font/Oswald-Regular.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../font/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Italic';
+    src: url('../font/Raleway-Italic.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../font/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('../font/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: 'AgentC';
+    src: url('../font/AgentC.ttf');
+}
+
+
+.font-raleway-regular
+{
+    font-family: 'Raleway-Regular';
+}
+.font-raleway-italic
+{
+    font-family: 'Raleway-Italic';
+}
+.font-raleway-bold
+{
+    font-family: 'Raleway-Bold';
+}
+.font-raleway-light
+{
+    font-family: 'Raleway-Light';
+}
+.font-oswald-regular
+{
+    font-family: 'Oswald-Regular';
+}
+
+.font-agentc
+{
+    font-family: 'AgentC';
+}
+
+
+.color-orange
+{
+    color: #ff9000;
+}
+.color-default
+{
+    color: #001535;
+}
+.title-bar-4
+{
+    color: #001535;
+    font-family: 'Raleway-Bold';
+    font-size: 30px;
+    text-align: center;
+}
+.title-bar-5
+{
+    color: #001535;
+    font-family: 'Raleway-Regular';
+    font-size: 30px;
+    text-align: center;
+}
+.btn-default
+{
+    background-color: #001535;
+    color: white;
+    font-size: 28px;
+    font-family: Arial;
+    padding: 15px 30px 15px 20px;
+    margin: 3px;
+    
+}
+.center-block
+{
+    text-align: center;
+}
+.btn-default > img{
+    margin-right: 5px;
+}
+.btn-orange
+{
+    background: #ff9000;
+    color: white;
+    font-family: 'Raleway-Regular';
+    font-size: 27px;
+    width: 70px;
+    height: 60px;
+    margin: 6px;
+}
+.inline
+{
+    display: inline;
+}
+.btn-inline
+{
+    margin: 5px;
+    display: inline;
+}
+.block{
+    display: block;
+}
+.comment
+{
+    font-size: 11px;
+}
+.left-half
+{
+    float: left;
+    width: 50%;
+}
+.right-half
+{
+    float: right;
+    width: 50%;
+}
+.mypadding
+{
+    padding: 6px;
+    position: relative;
+}
+.middle-content
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bottom-bar
+{
+    margin: 30px -15px 0px -15px;
+    background-color: #001535;
+    color: white;
+    padding: 30px 0px;
+}
+.far
+{
+    font-size: 15px;
+    color: darkgrey;
+}
+.icon-label
+{
+    vertical-align: middle;
+    margin-top: 5px;
+    font-size: 12px;
+    color: darkgrey;
+}
